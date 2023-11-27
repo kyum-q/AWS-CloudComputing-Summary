@@ -1,8 +1,9 @@
 # AWS-CloudComputing-Summary
-AWS의 EC2 Instance를 통한 ApacheSever와 RDS 데이터베이스를 연동한 Cloud Computing 요약 웹사이트
- 
-## ✍🏻&nbsp; 작품 소개
 
+## ✍🏻&nbsp; 작품 소개
+AWS의 EC2 Instance를 통한 ApacheSever와 RDS 데이터베이스를 연동한 Cloud Computing 웹사이트
+
+<br><br>
  
 ## 🖥&nbsp; 실행 화면
 ![실행화면](https://github.com/kyum-q/AWS-CloudComputing-Summary/assets/109158497/9067843f-02ee-4ed1-b66c-cb1e1aaace2c)
