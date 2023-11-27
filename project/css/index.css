@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+h1 { 
+    display: inline-block;
+    width: 100%;
+    margin-top: 50px;
+    height: 90px;
+    text-align: center;
+    line-height: 90px;
+    font-size: 30px;
+    font-family: 'GmarketSansMedium';
+}
+
+#section_menu {
+    display: inline-block;
+    margin: 0% 10%;
+    padding: 0;
+    width: 80%;
+}
+
+#section_menu li {
+    display: inline-block;
+    width: 30%;
+    margin-left: 4%;
+    text-align: center;
+    font-size: 15px;
+}
+
+#section_menu li:first-child {
+    margin-left: 0%;
+}
+
+.menu_title {
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+    font-family: 'GmarketSansMedium';
+    font-size: 17px;
+}
+
+.menu_content {
+    display: inline-block;
+    width: 100%;
+    margin-top: 5px;
+    font-size: 14px;
+    color: rgb(49, 49, 49);
+}
+
+#section_menu li a:hover {
+    color: rgb(75, 131, 170);
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.add_rds span a {
+    text-align: right;
+    font-size:0.7rem;
+    color:#545e6f;
+    margin:0.6rem;
+}
+
+#add_rds_section {
+    text-align: right;
+    position: fixed;
+    bottom: 28px;
+    right: 30px;
+    left: 0;
+    z-index: 1000;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
