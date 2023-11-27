@@ -125,3 +125,4 @@ AWS의 EC2 Instance를 통한 ApacheSever와 RDS 데이터베이스를 연동한
 </details>
 
 ## 🔍&nbsp; 개발 언어
+<img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=Html5&logoColor=white"> <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=Css3&logoColor=white"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white"> <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"> <img src="https://img.shields.io/badge/Amazon RDS-527FFF?style=for-the-badge&logo=amazonrds&logoColor=white"> <img src="https://img.shields.io/badge/AmazonEC2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white">
