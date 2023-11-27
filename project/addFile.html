@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>File Upload</title>
+</head>
+<body>
+    <h1>File Upload</h1>
+    <form action="./php/fileUpload.php" method="post" enctype="multipart/form-data">
+        <label for="file">Choose an File:</label>
+        <input type="file" name="file" id="file">
+        
+        <!-- Added input for file description -->
+        <label for="description">File Week:</label>
+        <input type="text" name="description" id="description">
+
+        <input type="submit" name="submit" value="Upload File">
+    </form>
+    <br>
+    <br>
+    <form action="./php/fileDelete.php" method="post" enctype="multipart/form-data">
+
+        <!-- Added input for file description -->
+        <label for="description">File Week:</label>
+        <input type="text" name="description" id="description">
+
+        <input type="submit" name="submit" value="Delete File">
+    </form>
+    <br>
+    <a href="./php/fileView.php">View File</a>
+</body>
+</html>
