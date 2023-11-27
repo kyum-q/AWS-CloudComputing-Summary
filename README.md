@@ -1,4 +1,5 @@
 # AWS-CloudComputing-Summary
+AWS를 활용한 Cloud Computing 웹사이트
 
 ## ✍🏻&nbsp; 작품 소개
 AWS의 EC2 Instance를 통한 ApacheSever와 RDS 데이터베이스를 연동한 Cloud Computing 웹사이트
