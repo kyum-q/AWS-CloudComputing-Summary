@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Cloud Computing 기술</title>
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/skill.css">
+
+    <script>
+        function toggleVisibility(name1, name2) {
+            var element = document.getElementById(name1);
+            var btn = document.getElementById(name2);
+
+            if (element.style.display == 'none') {
+                element.style.display = 'block';
+                btn.style.color = 'white';
+            } else {
+                element.style.display = 'none';
+                btn.style.color = 'rgb(206, 206, 206)';
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <header id="menu">
+        <ul id="menu_bar">
+            <li><a href="./index.html">Cloud Computing</a></li>
+            <li><a href="./contentLearning.html">학습 내용</a></li>
+            <li><a href="./skill.html">기술</a></li>
+            <li><a href="./trend.html">동향</a></li>
+        </ul> 
+    </header>
+
+    <section id="nav_section">
+        <nav>
+            <button id="concept_nav_button" onclick="toggleVisibility('concept_section','concept_nav_button')">개념 정리</button>
+            <a class="addition_nav" href="#concept_section">정의</a>
+            <a class="addition_nav" href="#concept2">장단점</a>
+            <a class="addition_nav" href="#concept3">플랫폼</a>
+            <a class="addition_nav" href="#concept4">서비스 모델</a>
+            
+            <button id="skill_nav_button" onclick="toggleVisibility('skill_section','skill_nav_button')">기술</button>
+            <a class="addition_nav" href="#skill_section">가상화 기술</a>
+            <a class="addition_nav" href="#skill2">분산처리 기술</a>
+            <a class="addition_nav" href="#skill3">데이터베이스 기술</a>
+            <a class="addition_nav" href="#skill4">스토리지 기술</a>
+        </nav>
+    </section>
+
+    <main>
+        <section id="concept_section">
+            <h1 id="concept_start">Cloud Computing 개념 정리</h1>
+            <br><br><br>
+
+
+            <section class="single_section">
+                <p class="single_title">Cloud Computing 이란?</p>
+                <span class="content">클라우드 컴퓨팅은 컴퓨팅 리소스를 인터넷을 통해 서비스로 사용할 수 있는 주문형 서비스.
+                    기업에서 직접 리소스를 조달하거나 구성, 관리할 필요가 없으며 사용한 만큼만 비용을 지불<br>
+                    쉽게 말하면, 클라우드 컴퓨팅은 <strong>인터넷("클라우드")을 통해</strong> 서버, 스토리지, 데이터베이스, 네트워킹, 소프트웨어, 분석, 인텔리전스 등의
+                    <strong>컴퓨팅 서비스를 제공</strong>하는 것.
+                </span>
+            </section>
+            <br id="concept2"><br><br>
+            <hr>
+            <img class="dual_center_img" src="./image/skill1.png">
+
+            <section class="dual_section">
+                <p class="dual_title">장단점</p><br>
+                <section class="dual_table">
+                    <span class="content">
+                        <ul>
+                            <li>경제성 <span class="additional_content">: 하드웨어 구매 필요가 없으므로 경제성</span></li>
+                            <li>
+                                <span>자본 비용을 가변 비용으로 대체</span> <span class="additional_content">: 사용한 양만 지불</span>
+                            </li>
+                            <li>유연성 <span class="additional_content">: 리소스 필요할 때, 필요한 만큼만 확장/축소</span></li>
+                            <li>빠른 구축 속도</li>
+                            <li>손쉬운 글로벌 서비스</li>
+                            <li>강력한 보안 <span class="additional_content">: 따로 보안을 신경 쓸 필요 없다.</span></li>
+                        </ul>
+                    </span>
+                </section>
+
+                <section class="dual_table">
+                    <span class="content">
+                        <ul>
+                            <br>
+                            <li>생각보다 비싼 비용</li>
+                            <li>점점 커지는 클라우드 의존성</li>
+                            <li>데이터 보관의 불안함</li>
+                            <br>
+                            <br>
+                        </ul>
+                    </span>
+                </section>
+            </section>
+            <br id="concept3"><br><br>
+            <hr>
+            <br><br><br>
+
+            <section class="dual_section">
+                <p class="dual_title">대표적인 Cloud Computing Platform</p><br>
+                <section class="dual_table">
+                    <div class="dual_icon"><img src="./image/skill_aws.JPEG"></div>
+                    <span class="content" id="cloud_example">
+                        AWS(Amazon Web Services)는 아마존닷컴이 제공하는 클라우드 컴퓨팅 플랫폼으로, 가상 컴퓨팅, 스토리지, 데이터베이스, 네트워킹, 머신 러닝, 보안 등
+                        다양한
+                        서비스를 제공하여 기업과 개발자가 확장 가능하고 안정적인 IT 인프라를 구축하고 운영할 수 있도록 합니다.
+                        AWS는 필요에 따라 리소스를 동적으로 조정하고 서비스를 유연하게 이용할 수 있는 플랫폼을 제공합니다.
+                    </span>
+                </section>
+
+                <section class="dual_table">
+                    <div class="dual_icon"><img src="./image/skill_azure.JPEG"></div>
+                    <span class="content" id="cloud_example">
+                        Azure는 Microsoft가 제공하는 클라우드 컴퓨팅 플랫폼입니다. 기업과 조직에게 가상 컴퓨팅, 스토리지, 데이터베이스, 인공지능, 보안, 개발 도구, 네트워킹 등
+                        다양한
+                        클라우드 서비스를 제공하여 애플리케이션을 개발, 배포, 운영할 수 있는 환경을 제공합니다.
+                        Azure는 하이브리드 클라우드 시나리오를 지원하며, 글로벌 데이터 센터 네트워크를 통해 안정적이고 확장 가능한 클라우드 인프라를 제공합니다.
+                    </span>
+                </section>
+            </section>
+            <br id="concept4"><br><br>
+            <hr>
+            <br><br><br>
+
+            <section class="dual_section">
+                <p class="dual_title">Cloud Service Model</p><br>
+                <section class="triple_table">
+                    <span class="content">
+                        <span class="model_name">IaaS</span><br>
+                        <span class="model_full_name">(Infrastructure as a Service - 인프라스트럭처 서비스)</span>
+                        <ul>
+                            <li>가장 기본적인 서비스 모델, 가상화된 컴퓨팅 리소스를 제공</li>
+                            <li>사용자 : 가상 머신, 스토리지 등의 인프라를 필요에 따라 사용<br>
+                                <span class="additional_content">(가상 서버를 생성하거나 스토리지 공간을 확보)</span>
+                            </li>
+                            <br>
+                        </ul>
+                    </span>
+                </section>
+
+                <section class="triple_table">
+                    <span class="content">
+                        <span class="model_name">PaaS</span><br>
+                        <span class="model_full_name">(Platform as a Service - 플랫폼 서비스)</span><br>
+                        <ul>
+                            <li>애플리케이션 개발 및 배포를 위한 플랫폼을 제공</li>
+                            <li>사용자: 소프트웨어 개발에 집중하고, 플랫폼은 개발, 테스트, <br>
+                                배포, 관리를 위한 도구 및 서비스를 제공<br>
+                                <span class="additional_content">(데이터베이스, 개발 프레임워크, 웹 서버 등의 플랫폼을 사용)</span>
+                            </li>
+                        </ul>
+                    </span>
+                </section>
+
+                <section class="triple_table">
+                    <span class="content">
+                        <span class="model_name">SaaS</span><br>
+                        <span class="model_full_name">(Software as a Service - 소프트웨어 서비스)</span><br>
+                        <ul>
+                            <li>최종 사용자에게 소프트웨어 애플리케이션을 제공</li>
+                            <li>사용자: 애플리케이션을 설치하거나 유지관리할 필요 없이 <br>
+                                웹 브라우저를 통해 소프트웨어를 이용<br>
+                                <span class="additional_content">(이메일 서비스, 문서 편집, 프로젝트 관리 등)</span>
+                            </li>
+                        </ul>
+                    </span>
+                </section>
+            </section>
+            <br><br><br>
+            <hr>
+            <hr>
+            <br><br><br>
+        </section>
+
+        <section id="skill_section">
+            <h1 id="siill_start">Cloud Computing 기술</h1>
+            <br id="skill1"><br><br>
+
+            <section class="single_section">
+                <p class="single_title">가상화 기술</p>
+                <span class="tecnical_content">
+                    <ul>
+                        <li>하드웨어 리소스를 논리적으로 다룰 수 있게 만드는 메커니즘</li>
+                        <ul>
+                            <li>컴퓨터 하나를 여러개처럼 만드는 것</li>
+                            <li>물리적으로 하나의 컴퓨터지만 여러명이 사용하고 싶은대로 사용</li>
+                        </ul>
+                        </li>
+                        <li>하나의 물리 서버 → 여러 개의 서버 환경 구축</li>
+                        <li>여러대의 물리적 서버 → 하나의 서버 환경으로 통합</li>
+                        <li>시스템 구성의 유연하고 빠른 변경 및 자동 리소스 추가</li>
+                        <li>서버 가상화, 네트워크 가상화, 스토리지 가상화</li>
+                    </ul>
+                </span>
+            </section>
+            <br><br><br>
+
+            <section class="single_section">
+                <p class="single_title">서버 가상화 기술</p>
+                <span class="tecnical_content">
+                    <ul>
+                        <li>하나의 물리적 서버 리소스에 여러개의 서버 환경 할당, 각각의 환경에서 OS와 애플리케이션을 실행할 수 있게 함</li>
+                        <ul>
+                            <li>컴퓨터 안에 여러개의 컴퓨터를 만들어 여러 OS를 사용할 수 있게 함</li>
+                        </ul>
+                        </li>
+                        <li>서버 리소스를 최대한 활용</li>
+                        <li>공간 절약, 비용 절감</li>
+                        <li>각각의 가상 서버는 독립 상태</li>
+                        <li>서버 가상화 기술의 종류
+                            <ul>
+                                <li>하이퍼바이저 형 : 하나의 물리 서버 하드웨어 > 하이퍼 바이저라는 가상화 소프트웨어 > guest OS</li>
+                                <li>호스트 OS 형 : 컨테이너 형 : 하나의 OS 환경에서 애플리케이션을 실행하기 위한 영역을 여러개로 나누어 사용</li>
+                                <li>컨테이너 형 </li>
+                            </ul>
+                        </li>
+                        <li>네트워크를 물리적 구성에 얽매이지 않게 하는 유연성 필요</li>
+                    </ul>
+                </span>
+            </section>
+            <br id="skill2"><br><br>
+            <hr>
+            <br><br><br>
+
+            <section class="single_section">
+                <p class="single_title">분산처리 기술</p>
+                <span class="tecnical_content">
+                    <ul>
+                        <li>대량의 빅데이터를 여러 서버에 분산하여 동시에 병렬로 빠르게 효율적으로 처리하는 기술</li>
+                        <li>클러스터링 : 여러 개의 서버를 겹합하여 하나의 컴퓨터로 보이게 함</li>
+                        <li>Apache Spark</li>
+                    </ul>
+                </span>
+            </section>
+            <br id="skill3"><br><br>
+            <hr>
+            <br><br><br>
+
+            <section class="single_section">
+                <p class="single_title">데이터베이스 기술</p>
+                <span class="tecnical_content">
+                    <ul>
+                        <li>ROB (relational database)</li>
+                        <li>NoSQL (Not only SQL) <span class="additional_content">: 대량의 데이터를 분산시켜 고속으로 처리하는 분산 데이터베이스
+                        </li>
+                    </ul>
+                </span>
+            </section>
+            <br id="skill4"><br><br>
+            <hr>
+            <br><br><br>
+
+            <section class="single_section">
+                <p class="single_title">스토리지 기술</p>
+                <span class="tecnical_content">
+                    <ul>
+                        <li>Block Storage
+                            <ul>
+                                <li>일정한 크기의 block으로 나눈 logical volume을 block 단위로 액세스</li>
+                                <li>빠른 데이터 전송 가능</li>
+                                <li>데이터베이스 서버</li>
+                            </ul>
+                        </li>
+                        <li>File Storage
+                            <ul>
+                                <li>파일 단위로 저장</li>
+                                <li>파일 공유 기능</li>
+                                <li>파일 서버</li>
+                            </ul>
+                        </li>
+                        <li>Object Storage
+                            <ul>
+                                <li>데이터를 객체 단위로 처리</li>
+                                <li>OS, file system에 독립적으로 데이터 저장</li>
+                                <li>HTTP 프로토콜 기반의 REST 형식의 API 사용</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </span>
+            </section>
+            <br><br><br>
+            <hr>
+            <br><br><br>
+        </section>
+    </main>
+</body>
+
+</html>

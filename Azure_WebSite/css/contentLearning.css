@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+#nav_section,
+.cource {
+    margin: 10px;
+}
+
+#nav_title {
+    display: inline-block;
+    width: 100%;
+    margin-top: 20px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 30px;
+    font-family: 'GmarketSansMedium';
+}
+
+nav {
+    /* position: sticky;
+    top: 0;
+    left: 0;
+    right: 0; */
+    background-color: #E5F0EA;
+    margin: 10px 20px;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+nav button {
+    font-family: 'GmarketSansMedium';
+    font-size: 13px;
+    margin: 7px 7px;
+    padding: 5px 15px;
+    background-color: rgb(255, 255, 255);
+    border-color: #e6ecf0;
+    border-width: 1.4px;
+    border-radius: 5px;
+}
+
+nav button a:hover {
+    color: #7d919d;
+}
+
+main {
+    margin: 0px 20px;
+    background-color: #F7F9FA;
+}
+
+.cource {
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #D9DBDC;
+}
+
+.sectionname {
+    font-family: 'GmarketSansMedium';
+    background-color: #E5F0EA;
+    padding: 10px;
+    margin: 0;
+}
+
+.content {
+    margin: 5px;
+}
+
+.week_content {
+    margin: 3px;
+}
+
+.file_image {
+    margin-right: 7px;
+    width: auto;
+    height: 30px;
+}
+
+.file_name a {
+    display: inline-block;
+    width: auto;
+    height: 100%;
+    transform: translateY(-7.5px);
+}
+
+.file_name a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.file_size {
+    color: #31708f;
+    font-size: 12px;
+    margin-left: 5px;
+}
